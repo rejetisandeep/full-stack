@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>most used css properties</title>
+    <style>
+        .block-box {
+  display: block;
+  background-color: lightcoral;
+  width: 200px; /* Width is respected */
+  height: 50px; /* Height is respected */
+  margin-bottom: 10px;
+}
+.inline-link {
+  display: inline;
+  background-color: yellow;
+  width: 500px;  /* IGNORED: Has no effect */
+  height: 100px; /* IGNORED: Has no effect */
+}
+.nav-btn {
+  display: inline-block;
+  width: 120px;       /* Respected! */
+  height: 40px;       /* Respected! */
+  text-align: center;
+  margin-right: 10px;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <div class="block-box">I am box 1</div>
+<div class="block-box">I am box 2</div>
+  <p>
+  Read our new <span class="inline-link">Terms of Service</span> and our 
+  <span class="inline-link">Privacy Policy</span>.
+</p>
+<button class="nav-btn">Home</button>
+<button class="nav-btn">About</button>
+<button class="nav-btn">Contact</button>
+
+    </div>
+  
+</body>
+</html>     
