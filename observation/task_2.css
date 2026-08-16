@@ -1,0 +1,69 @@
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f4f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            width: 400px;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #studentProfile {
+            margin-top: 20px;
+        }
+
+        .profile-card {
+            background-color: #eaf4ff;
+            border-left: 5px solid #007bff;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .profile-card h2 {
+            color: #007bff;
+            margin-top: 0;
+        }
+
+        .profile-card p {
+            margin: 8px 0;
+            color: #333;
+        }
+    </style>
