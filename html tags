@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>html tags</title>
+    </head>
+    <body>
+        <h1>welcome</h1>
+    <div class="feature-container">
+  <div class="card">
+    <h4>Fast Support</h4>
+    <p>24/7 assistance for all users.</p>
+  </div>
+  
+  <div class="card">
+    <h4>Secure Payments</h4>
+    <p>Your data is always protected.</p>
+  </div>
+  
+  <div class="card">
+    <h1>Global Shipping</h1>
+    <p>We deliver straight to your doorstep.</p>
+  </div>
+</div>
+    </body>
+</html>
