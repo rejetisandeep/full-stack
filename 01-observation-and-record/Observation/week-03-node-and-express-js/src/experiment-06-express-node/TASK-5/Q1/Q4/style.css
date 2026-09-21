@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#heading {
+    color: black;
+}
+
+#message {
+    font-size: 18px;
+    margin: 20px;
+}
+
+img {
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
